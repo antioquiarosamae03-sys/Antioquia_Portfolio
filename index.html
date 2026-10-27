@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rosa Mae | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600;700&family=Allura&family=Bodoni+Moda:wght@400;600;700&family=Alex+Brush&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <a href="#home" class="logo" aria-label="Rosa Mae home">
+            <span class="logo-r">R</span><span class="logo-name">osa Mae</span>
+        </a>
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <a href="#about">ABOUT</a>
+            <a href="#hobbies">HOBBIES</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#works">WORKS</a>
+            <a href="#feedback">FEEDBACK</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <!-- Decorative background -->
+            <div class="dots" aria-hidden="true"></div>
+            <div class="curve" aria-hidden="true"></div>
+
+            <!-- Introduction -->
+            <div class="hero-content">
+
+                <h1>Let's Work<br>Together</h1>
+
+                <p class="subtitle">
+                    A BSIT STUDENT AND ASPIRING IT PROFESSIONAL
+                </p>
+
+                <a href="#contact" class="contact-button">
+                    <span>CONTACT</span>
+                    <span class="phone-icon" aria-hidden="true">☎</span>
+                </a>
+
+            </div>
+
+            <!-- Skill labels -->
+            <div class="skill-label graphic">
+                <span class="skill-icon" aria-hidden="true">✎</span>
+                <span>GRAPHIC DESIGN</span>
+            </div>
+
+            <div class="skill-label web">
+                <span class="skill-icon" aria-hidden="true">▤</span>
+                <span>WEB DESIGN</span>
+            </div>
+
+            <div class="skill-label uiux">
+                <span class="skill-icon" aria-hidden="true">⟳</span>
+                <span>UI/UX DESIGN</span>
+            </div>
+
+            <!-- Profile picture -->
+            <div class="hero-image">
+                <img src="image/hero-photo.jpg"
+                     alt="Rosa Mae, aspiring IT professional">
+            </div>
+
+        </section>
+
+        <!-- ABOUT ME SECTION -->
+        <section class="content-section about-section" id="about">
+            <h2 class="canva-title">ABOUT ME</h2>
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="image/about-photo.png" alt="Rosa Mae Profile">
+                </div>
+                <div class="about-text">
+                    <p>
+                        Hi! I'm Rosa Mae, a BSIT student and aspiring IT professional who is passionate about learning, technology, graphic design, and personal growth. I enjoy exploring different areas of information technology, developing my technical and creative skills, designing visually appealing projects, and creating work that helps me gain experience and improve my creativity.
+                    </p>
+                    <p>
+                        Outside of technology and graphic design, I enjoy playing sports such as golfing, billiards, bowling, and badminton. I also love exploring new places and discovering new experiences. These interests help me stay active, creative, adaptable, and open to learning.
+                    </p>
+                    <p>
+                        My goal is to continue improving my skills in information technology and graphic design, gain valuable experience, and create meaningful and creative projects as I grow in my chosen field.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOBBIES SECTION -->
+        <section class="content-section alternate hobbies-section" id="hobbies">
+            <div class="hobbies-container">
+                
+                <!-- LEFT COLUMN: Title & Graphics -->
+                <div class="hobbies-left">
+                    <h2 class="canva-title-large">HOBBIES</h2>
+                    <p class="hobbies-subheading">LIFE IS BETTER WITH SPORTS AND ADVENTURES</p>
+                    <div class="hobbies-graphics">
+                        <img src="image/graphics.png" alt="Sports Equipment Graphics">
+                    </div>
+                </div>
+
+                <!-- RIGHT COLUMN: Photo Collage & Quote -->
+                <div class="hobbies-right">
+                    <div class="photo-grid">
+                        <img src="image/golf.png" alt="Golfing Range" class="p-1">
+                        <img src="image/atv.png" alt="ATV Beach Adventure" class="p-2">
+                        <img src="image/billiards.png" alt="Billiards Hall" class="p-3">
+                        <img src="image/sea.png" alt="Underwater Walk" class="p-4">
+                        <img src="image/billiard2.png" alt="Playing Pool" class="p-5">
+                    </div>
+
+                    <blockquote class="hobbies-quote">
+                        "A sports and adventure enthusiast who enjoys golfing, billiards, bowling, badminton, exploring new places and trying new things."
+                    </blockquote>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="content-section skills-section" id="skills">
+            <h2 class="script-title">Skills</h2>
+            <div class="skills-grid">
+                <!-- TECHNICAL -->
+                <div class="skill-card">
+                    <div class="icon-circle">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="#ffffff"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.4-2.4c.4-.4.4-1 0-1.3z"/></svg>
+                    </div>
+                    <h3>TECHNICAL</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVA</li>
+                        <li>PYTHON</li>
+                        <li>SQL</li>
+                        <li>MICROSOFT ACCESS</li>
+                        <li>DATABASE MANAGEMENT</li>
+                    </ul>
+                </div>
+
+                <!-- GRAPHIC DESIGN -->
+                <div class="skill-card">
+                    <div class="icon-circle">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="#ffffff"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7z"/></svg>
+                    </div>
+                    <h3>GRAPHIC DESIGN SKILLS</h3>
+                    <ul>
+                        <li>CANVA</li>
+                        <li>LAYOUT DESIGN</li>
+                        <li>TYPOGRAPHY</li>
+                        <li>COLOR SELECTION</li>
+                        <li>PHOTO EDITING</li>
+                        <li>SOCIAL MEDIA GRAPHICS</li>
+                    </ul>
+                </div>
+
+                <!-- SOFT SKILLS -->
+                <div class="skill-card">
+                    <div class="icon-circle">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="#ffffff"><path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 21l3.58-.94C9.36 20.65 10.64 21 12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 16c-1.23 0-2.41-.31-3.46-.88l-.25-.14-2.12.56.57-2.07-.16-.26C6.01 15.17 5.5 13.64 5.5 12c0-3.58 2.92-6.5 6.5-6.5s6.5 2.92 6.5 6.5-2.92 6.5-6.5 6.5z"/></svg>
+                    </div>
+                    <h3>SOFT SKILLS</h3>
+                    <ul>
+                        <li>COMMUNICATION</li>
+                        <li>TEAMWORK</li>
+                        <li>PROBLEM-SOLVING</li>
+                        <li>CREATIVITY</li>
+                        <li>ADAPTABILITY</li>
+                        <li>TIME MANAGEMENT</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORKS SECTION -->
+        <section class="content-section alternate works-section" id="works">
+            <div class="graphic-design-grid">
+                <div class="brand-kit">
+                    <img src="image/BRAND.png" alt="Anik A Smylle Brand Kit">
+                </div>
+
+                <div class="right-column-content">
+                    <div class="works-header">
+                        <h2>Some of My Work</h2>
+                        <p class="works-tag">GRAPHIC DESIGN</p>
+                        <p class="script-subtitle">Creative designs and technical projects I have created.</p>
+                    </div>
+
+                    <div class="promo-grid">
+                        <img src="image/FLASH.png" alt="Flash Sale Poster">
+                        <img src="image/70.png" alt="New Product Bag">
+                        <img src="image/DOUBLE.png" alt="New Collection Graphic">
+                        <img src="image/DOUBLE.png" alt="Green Sale Poster">
+                        <img src="image/HANDBAG.png" alt="Luxury Handbags Promo">
+                        <img src="image/FEEDBACK.png" alt="Customer Feedback Post">
+                    </div>
+                </div>
+            </div>
+
+            <div class="works-header it-header">
+                <h2>IT PROJECTS</h2>
+            </div>
+
+            <div class="it-projects-grid">
+                <div class="it-card main-sys">
+                    <img src="image/A.png" alt="e-CLAMS Asset System Interface">
+                </div>
+                <div class="it-card side-login">
+                    <img src="image/B.png" alt="Login System Screen">
+                </div>
+                <div class="it-card code-view">
+                    <img src="image/C.png" alt="Backend Code Editor">
+                </div>
+                <div class="it-card form-view">
+                    <img src="image/E.png" alt="Computer Laboratory Form UI">
+                </div>
+            </div>
+        </section>
+
+        <!-- FEEDBACK SECTION -->
+        <section class="content-section feedback-section" id="feedback">
+            <div class="feedback-layout">
+                
+                <!-- COLUMN 1: TESTIMONIALS -->
+                <div class="testimonials-column">
+                    <div class="works-header feedback-header">
+                        <h2 class="canva-title-large">Feedback</h2>
+                        <p class="section-label">TESTIMONIALS</p>
+                    </div>
+
+                    <div class="speech-bubble">
+                        <span class="bubble-quote">“</span>
+                        <p class="quote-body">"CREATIVE, HARDWORKING, AND ATTENTIVE TO DETAIL. SHE CREATES VISUALLY APPEALING DESIGNS WHILE STAYING OPEN TO FEEDBACK AND NEW IDEAS."</p>
+                        <span class="quote-author">— CLIENT</span>
+                    </div>
+
+                    <div class="speech-bubble">
+                        <span class="bubble-quote">“</span>
+                        <p class="quote-body">"CREATED A BEAUTIFUL AND EYE-CATCHING SOCIAL MEDIA POST THAT MATCHED THE STYLE AND MESSAGE I WANTED. SHE WAS EASY TO COMMUNICATE WITH, LISTENED TO MY IDEAS, AND MADE SURE THE FINAL DESIGN LOOKED CLEAN AND PROFESSIONAL. VERY HAPPY WITH THE RESULT!"</p>
+                        <span class="quote-author">— CLIENT</span>
+                    </div>
+
+                    <div class="speech-bubble">
+                        <span class="bubble-quote">“</span>
+                        <p class="quote-body">"RESPONSIBLE, EASY TO WORK WITH, AND WILLING TO LEARN. SHE SHOWS DEDICATION AND CREATIVITY IN EVERY PROJECT."</p>
+                        <span class="quote-author">— COLLABORATOR</span>
+                    </div>
+                </div>
+
+                <!-- COLUMN 2: CERTIFICATES -->
+                <div class="certificates-column">
+                    <div class="works-header cert-header-center">
+                        <h2 class="canva-title-large">CERTIFICATE</h2>
+                    </div>
+
+                    <img src="image/cert social.png" alt="Certificate of Completion - Social Media Management" class="main-cert">
+                    
+                    <div class="cert-pair">
+                        <img src="image/cert2.png" alt="C Essentials Certificate">
+                        <img src="image/cert 3.png" alt="C++ Essentials Certificate">
+                    </div>
+                </div>
+
+                <!-- COLUMN 3: REACH & AUDIENCE ANALYTICS -->
+                <div class="analytics-column">
+                    <img src="image/reach.png" alt="Reach Analytics Dashboard" class="analytics-img">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="content-section alternate contact-section" id="contact">
+            <h2 class="canva-title-large center">GET IN TOUCH</h2>
+            <p class="contact-sub text-center">HAVE A PROJECT, IDEA, OR INQUIRY? FEEL FREE TO SEND ME A MESSAGE. I'D BE HAPPY TO HEAR FROM YOU.</p>
+
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <h3>CONTACT DETAILS</h3>
+                    <ul class="info-list">
+                        <li>
+                            <span class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            </span>
+                            <a href="mailto:antioquiarosamae03@gmail.com">antioquiarosamae03@gmail.com</a>
+                        </li>
+                        <li>
+                            <span class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="#25D366"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </span>
+                            <span>09674957662</span>
+                        </li>
+                    </ul>
+
+                    <h3 class="socials-heading">SOCIALS</h3>
+                    <ul class="info-list">
+                        <li>
+                            <span class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E1306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                            </span>
+                            <a href="https://instagram.com/rosamae" target="_blank">@rosamae</a>
+                        </li>
+                        <li>
+                            <span class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="#1877F2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                            </span>
+                            <a href="https://facebook.com/rosamae" target="_blank">facebook.com/rosamae</a>
+                        </li>
+                        <li>
+                            <span class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="#0A66C2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                            </span>
+                            <a href="https://linkedin.com/in/rosa-mae-antioquia" target="_blank">www.linkedin.com/in/rosa-mae-antioquia</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-box">
+                    <form class="contact-form-inputs" id="contactForm">
+                        <div class="field-row">
+                            <label for="fullName">FULL NAME</label>
+                            <input type="text" id="fullName" required>
+                        </div>
+                        <div class="field-row">
+                            <label for="emailAddr">EMAIL ADDRESS</label>
+                            <input type="email" id="emailAddr" required>
+                        </div>
+                        <div class="field-row">
+                            <label for="projType">PROJECT TYPE</label>
+                            <select id="projType">
+                                <option value=""></option>
+                                <option value="graphic">Graphic Design</option>
+                                <option value="web">Web Development</option>
+                                <option value="database">Database System</option>
+                            </select>
+                        </div>
+                        <div class="field-row">
+                            <label for="msgText">MESSAGE</label>
+                            <textarea id="msgText" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-green-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 ROSA MAE | ALL RIGHTS RESERVED</p>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <a href="#home" class="back-to-top" aria-label="Return to top">
+        ↑
+    </a>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+        const navbar = document.getElementById("navbar");
+
+        // Mobile menu toggle
+        menuToggle.addEventListener("click", function () {
+            const isOpen = navbar.classList.toggle("active");
+            menuToggle.setAttribute("aria-expanded", isOpen);
+        });
+
+        navbar.querySelectorAll("a").forEach(function (link) {
+            link.addEventListener("click", function () {
+                navbar.classList.remove("active");
+                menuToggle.setAttribute("aria-expanded", "false");
+            });
+        });
+
+        // Contact form submit handling
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            alert("Thank you! Your message has been sent successfully.");
+            this.reset();
+        });
+
+        // Show/Hide Back-to-Top Button on Scroll
+        const backToTopBtn = document.querySelector(".back-to-top");
+        window.addEventListener("scroll", function() {
+            if (window.scrollY > 400) {
+                backToTopBtn.classList.add("show");
+            } else {
+                backToTopBtn.classList.remove("show");
+            }
+        });
+    </script>
+
+</body>
+</html>
